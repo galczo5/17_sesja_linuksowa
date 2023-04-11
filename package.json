@@ -1,0 +1,23 @@
+{
+  "name": "17_sesja_linuksowa",
+  "version": "1.0.0",
+  "description": "Czemu znowu ten Javascript…?",
+  "main": "index.js",
+  "bin": {
+    "17sl": "node ./dist/index.js"
+  },
+  "scripts": {
+    "build": "esbuild index.ts --bundle --platform=node --outdir=dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^18.15.11",
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "esbuild": "^0.17.16",
+    "typescript": "^5.0.4"
+  }
+}
