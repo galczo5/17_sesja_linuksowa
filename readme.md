@@ -103,3 +103,26 @@ const jokes = [
   "Why did the web designer get fired? He didn't know how to float.",
 ];
 ```
+
+## Electron
+
+```bash
+npm create vite@latest
+```
+
+```bash
+cd joker && npm install && npm run dev
+```
+
+Poprawić build w `joker/package.json`:
+```
+"build": "tsc && vite build --base=./"
+```
+
+```bash
+cd joker && npm run build && cd ..
+```
+
+```bash
+npm install --save electron @types/electron
+```
