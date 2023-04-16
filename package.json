@@ -7,7 +7,6 @@
     "17sl": "node ./dist/index.js"
   },
   "scripts": {
-    "start": "electron .",
     "build": "esbuild index.ts --bundle --platform=node --outdir=dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,11 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "@types/colors": "^1.2.1",
-    "@types/electron": "^1.6.10",
     "@types/node": "^18.15.11",
     "colors": "^1.4.0",
     "commander": "^10.0.0",
-    "electron": "^24.1.0",
     "esbuild": "^0.17.16",
     "typescript": "^5.0.4"
   }
